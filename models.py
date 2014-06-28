@@ -2,7 +2,6 @@
 
 import datetime
 
-from sqlalchemy import func
 from sqlalchemy import Column
 from sqlalchemy import Integer
 from sqlalchemy import String
@@ -19,7 +18,7 @@ class Registration(Base):
 
     invited_on = Column(DateTime)
     created_on = Column(DateTime, default=datetime.datetime.utcnow())
-    updated_on = Column(DateTime, default=func.now(), onupdate=func.now())
+    updated_on = Column(DateTime, default=datetime.datetime.utcnow(), onupdate=datetime.datetime.utcnow())
 
     @property
     def position(self):

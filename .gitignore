@@ -54,3 +54,6 @@ target/
 
 # PyCharm
 .idea
+
+# Database files
+*.db
