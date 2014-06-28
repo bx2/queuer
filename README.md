@@ -6,21 +6,15 @@ A very simple, flask-based app to handle queued registration.
 
 1. Install requisite packages:
 
-```
-$ pip install -r requirements.txt
-```
+> $ pip install -r requirements.txt
 
 2. Create tables:
 
-```
-$ python db.py
-```
+>$ python db.py
 
 3. Run service:
 
-```
-$ python app.py
-```
+> $ python app.py
 
 4. Give it a try:
 
