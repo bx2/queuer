@@ -3,20 +3,22 @@ Queuer
 
 A very simple, flask-based app to handle queued registration.
 
+Install the app:
+----------------
 
-1. Install requisite packages:
+```
+# Install requirements
+$ pip install -r requirements.txt
 
-> $ pip install -r requirements.txt
+# Create an empty database
+$ python db.py
 
-2. Create tables:
+# Run the service
+$ python app.py
+```
 
->$ python db.py
-
-3. Run service:
-
-> $ python app.py
-
-4. Give it a try:
+Give it a try:
+--------------
 
 ```
 >> import requests, json
