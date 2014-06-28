@@ -42,19 +42,6 @@ Give it a try:
     "position": 1, 
     "waiting_before": 0
 }
->> requests.put('http://localhost:5000/registrations/email@address.com',
-                headers={'Content-Type': 'application/json'},
-                data=json.dumps({'email': 'test@email.com'}).json()
-{
-    "created_on": "2014-06-28T23:01:24.312810", 
-    "email": "test@email.com", 
-    "invited": false, 
-    "position": 1, 
-    "waiting_before": 0
-}
->> requests.delete('http://localhost:5000/registrations/test@email.com')
->> requests.get('http://localhost:5000/registrations').json()
-[]
 ```
 
 Don't forget that you must past a `Content-Type: application/json` header along
