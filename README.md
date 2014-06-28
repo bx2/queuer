@@ -1,5 +1,8 @@
-Queuer - a simple flask-based app to handle queued registration.
-===================
+Queuer
+======
+
+A very simple, flask-based app to handle queued registration.
+
 
 1. Install requisite packages:
 
