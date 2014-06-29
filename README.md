@@ -46,3 +46,9 @@ Give it a try:
 
 Don't forget that you must past a `Content-Type: application/json` header along
 w/ your request!
+
+Credits:
+--------
+
+Big thanks to Max Mautner (https://github.com/mmautner) for publishing his `simple_api` project
+which made it much easier for me to write Queuer.
